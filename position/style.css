@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(42, 42, 42);
+}
+header{
+    height: 100px;
+    background-color: black;
+}
+main{
+    margin: 30px;
+    /* background-color: rgb(62, 44, 44); */
+}
+.hero{
+    color: white;
+}
+.grid-text{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap:15px;
+    margin-top: 50px;
+}
+.left{
+    padding: 10px;
+    color: white;
+    /* background-color: rgb(58, 3, 3); */
+    text-align: left;
+}
+.content{
+    position: sticky;
+    top: 0;
+}
+ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.middle{
+    padding-top: 10px;
+    color: aliceblue;
+    /* background-color: rgb(2, 85, 57); */
+}
+.middle p{
+    margin-top: 10px;
+}
+.right{
+    padding: 10px;
+    color: white;
+    /* background-color: rgb(3, 58, 51); */
+    text-align: left;
+}
+.form{
+    margin-top: 5px;
+    position: sticky;
+    top: 5px;
+}
+label{
+    color: aliceblue;
+    margin-top: 5px;
+}
+input{
+    margin-top: 5px;
+}
+button{
+    margin-top: 5px;
+}
+.paragraph{
+    /* background-color: rgb(2, 58, 91); */
+    color: aliceblue;
+}
+.paragraph p{
+    margin-top: 10px;
+}
+.toTop{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.toTop img{
+    width: 30px;
+}

@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 22, 22);
+}
+footer{
+    background-color: rgb(22, 22, 22);
+    padding: 100px;
+}
+.class_footer{
+    display: flex;
+    width: 100%;
+}
+#bottom{
+    padding-top: 2rem;
+}
+.logo-text{
+    width: 30%;
+    color: white;
+}
+.logo img{
+    width: 50px;
+}
+.logo-text p{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+.newsletter{
+    padding-left: 2rem;
+    color: white;
+    width: 70%;
+    /* background-color: red; */
+}
+.newsletter form{
+    width: 100%;
+}
+label{
+    font-size: 1.2rem;
+}
+input{
+    margin-top: 0.5rem;
+    width: 80%;
+    height: 2.5rem;
+    background-color: rgb(22, 22, 22);
+    border: 3px solid white;
+}
+input::placeholder{
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+.signbutton{
+    height: 2.5rem;
+    border: 3px solid white;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+.left{
+    width: 70%;
+    display: flex;
+}
+.col{
+    color: white;
+    width: 25%;
+}
+.col h3{
+    color: rgb(172, 172, 172);
+}
+ul{
+    padding-top: 0.5rem;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 0.3rem;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.right{
+    width: 30%;
+    color: white;
+}
+
+.tfollow{
+    text-align: right;
+}
+.bottom-buttons{
+    margin-top: 3rem;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.bottom-buttons button{
+    height: 2.5rem;
+    border: 3px solid white;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+}

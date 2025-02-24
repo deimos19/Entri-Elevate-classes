@@ -1,0 +1,40 @@
+
+section{
+    background-color: black;
+    padding: 30px;
+}
+h1{
+    color: white;
+    font-size: 8rem;
+    width: 40%;
+    margin: 0;
+}
+p{
+    color: white;
+    font-size: 1.4rem;
+    width: 40%;
+}
+a{
+    color: white;
+    width: 40%;
+    font-size: 1.4rem;
+}
+.sect2{
+    background-color: rgba(255, 192, 203, 0.577);
+}
+.newh1{
+    color: black;
+    margin: 0;
+    font-size: 4rem;
+    width: 40%;
+}
+.newp{
+    color: black;
+    margin:0px;
+    width: 40%;
+    font-size: 1.3rem;
+}
+.new2p{
+    color: black;
+    font-size: 1.3rem
+}

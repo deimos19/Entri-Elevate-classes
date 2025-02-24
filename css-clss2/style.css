@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: black;
+    display: flex;
+    padding: 100px;
+}
+.bigdiv{
+    color: white;
+    width: 50%;
+    margin: 10px;
+}
+div{
+    color: white;
+    width: 25%;
+    margin: 10px;
+}
+.atag{
+    color: white;
+    font-size: 1.2rem;
+}
+div p{
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+}
+div h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+img{
+    width: 100%;
+    margin-bottom: 10px;
+}
